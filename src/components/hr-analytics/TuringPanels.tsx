@@ -814,13 +814,13 @@ export function Turing50Panel({ report }: { report: HrEvaluationReport }) {
   ];
 
   const liveFlowData = [
-    { time: "09:00", screening: 28, review: 18, queue: 10 },
-    { time: "09:05", screening: 54, review: 24, queue: 22 },
-    { time: "09:10", screening: 36, review: 21, queue: 12 },
-    { time: "09:15", screening: 68, review: 31, queue: 26 },
-    { time: "09:20", screening: 41, review: 20, queue: 11 },
-    { time: "09:25", screening: 74, review: 34, queue: 29 },
-    { time: "09:30", screening: 46, review: 23, queue: 15 },
+    { time: "09:00", screening: 24, review: 16, queue: 9 },
+    { time: "09:05", screening: 27, review: 18, queue: 10 },
+    { time: "09:10", screening: 31, review: 20, queue: 12 },
+    { time: "09:15", screening: 37, review: 22, queue: 14 },
+    { time: "09:20", screening: 120, review: 41, queue: 29 },
+    { time: "09:25", screening: 130, review: 49, queue: 34 },
+    { time: "09:30", screening: 140, review: 55, queue: 38 },
   ];
 
   const latencyTrendData = [
